@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div >
+        <div class="header">
+            <div>
+                <img src="GTAWiki-Todo-Checklist.png" alt="" width="70px"> 
+            </div>
+            <div>
+                <h1> ToDo App</h1>
+            </div>
+        </div>
+
+
+        <div class="main">
+
+            <div class=" input">
+                <input placeholder="Enter Todo" type="text" id="todo-item">
+                <button class="btn1" onclick="addTodo()" >ADD TODO</button>
+                <button class="btn2" onclick="deleteAll()">DELETE ALL</button>
+
+            </div>
+            <div class="lists">
+                <ul id="list">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

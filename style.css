@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+  background-image: url(ToDo.png);
+ background-size: cover;
+  color: rgb(9, 236, 236);
+  margin: 0px;
+}
+.header{
+    background-image: linear-gradient(to right,black , rgb(218, 218, 163));
+    display: flex;
+    color: rgb(4, 255, 62);
+    
+    
+}
+.btn{
+    float: right !important;
+    margin-left: 5px !important;
+    color: red;
+
+}
+.lists{
+    display: inline-block;
+
+}
+ul{
+    list-style: none !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+
+}
+li {
+    font-size: 24px !important;
+    width: auto !important;
+    text-align: left;
+    padding: 3px !important;
+    padding-bottom: 6px !important;
+    margin-bottom: 3px !important;
+    border-bottom: 0.5px solid gray !important;
+}
+.main{
+    margin-top: 30px;
+
+}
+
+input{
+    font-size: 25px;
+}
+.btn1{
+    background-color: rgb(95, 182, 83);
+}
+.btn2{
+    background-color: rgb(236, 65, 65);
+}
